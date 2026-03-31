@@ -7,3 +7,4 @@ Objetivo:
 - Criar branches
 - Realizar commits
 - Criar Pull Requests
+Atualizando para testar CI/CD 🚀
