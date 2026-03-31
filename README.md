@@ -7,3 +7,4 @@ Objetivo:
 - Criar branches
 - Realizar commits
 - Criar Pull Requests
+Projeto criado por Alanna.
