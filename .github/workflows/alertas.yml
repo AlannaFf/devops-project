@@ -1,0 +1,13 @@
+name: Check de Segurança e Alertas
+on: [push, pull_request]
+
+jobs:
+  check-projeto:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Rodando Testes
+        run: python test_app.py
+      - name: Alerta de Falha
+        if: failure()
+        run: echo "ENVIO DE ALERTA: Ocorreu um erro crítico nos testes!"
