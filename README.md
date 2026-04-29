@@ -7,3 +7,5 @@ Objetivo:
 - Criar branches
 - Realizar commits
 - Criar Pull Requests
+Atualização para testes unitários
+Atualização para rodar testes novamente
